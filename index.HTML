@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>Cute-Alpaca</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- gonna divide the body in a header on the top, then a cointainer that is gonan be divided in in two div's one for the 
+     alpaca-img on the left on the right all the possible settings. At the end the buttons for saving or randomizing-->
+    <div id="header">
+        <h1 id="titolo">Alpaca Generator</h1>
+    </div>
+    <div id="container">
+        <div id="imgContainer">
+            <img id="img-neck"  class="img-alpaca"  src="images/neck/default.png"  alt="Neck of the alpaca">
+            <img id="img-ears"  class="img-alpaca"  src="images/ears/default.png"  alt="Ears of the alpaca">
+            <img id="img-hair"  class="img-alpaca"  src="images/hair/default.png"  alt="Hair of the alpaca">
+            <img id="img-eyes"  class="img-alpaca"  src="images/eyes/default.png"  alt="Eyes of the alapaca">
+            <img id="img-nose"  class="img-alpaca"  src="images/nose.png"          alt="Nose of the alpaca">
+            <img id="img-mouth" class="img-alpaca"  src="images/mouth/default.png" alt="Mouth of the alpaca">
+            <img id="img-leg"   class="img-alpaca"  src="images/leg/default.png"   alt="Leg if the alpaca"> 
+            <img id="img-acc"   class="img-alpaca"  src=" "   alt=" "> 
+        </div>
+        <div id="settings">
+            <div id="accessories">
+                <h4>Accessorize The Alpaca's</h4>
+                <button class="btn" id="btn-hair">Hair</button>
+                <button class="btn" id="btn-ears">Ears</button>
+                <button class="btn" id="btn-eyes">Eyes</button>
+                <button class="btn" id="btn-mouth">Mouth</button>
+                <button class="btn" id="btn-neck">Neck</button>
+                <button class="btn" id="btn-leg">Leg</button>
+                <button class="btn" id="btn-accessories"> Accessories</button>
+                <button class="btn" id="btn-background"> Background</button>
+            </div>
+            <div id="alpaca-style">
+            </div>
+        </div>
+    </div>
+    <div id="userchoice">
+        <button class="choise-btn" id="random">🔀 Random</button>
+        <button class="choise-btn" id="download">🖼 Download</button>
+    </div>
+    
+
+    <script src="./index.js"></script>
+</body>
